@@ -5,7 +5,7 @@ In programming, most of times counting and numbering starts from *Zero*.
 It's a convention among mathematicians and computer scientists.   
 
 ### Exercise 1
-> Lined up with a group of classmates.  
+> Line up with a group of classmates.  
 >  
 >  Line: | A | B | C | D | You | E | F  
 > -- | -- | -- | -- | -- | -- | -- | --
