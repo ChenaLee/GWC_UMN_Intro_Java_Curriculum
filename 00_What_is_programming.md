@@ -1,7 +1,7 @@
 # 00_What_is_programming
 ## Counting from Zero - Zero Based Numbering
 Did you notice this is marked as lesson **00** intead of **01**?  
-In programming, most of times countring and numbering starts from *Zero*.  
+In programming, most of times counting and numbering starts from *Zero*.  
 It's a convention among mathematicians and computer scientists.   
 
 ### Exercise 1
