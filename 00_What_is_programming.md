@@ -27,7 +27,7 @@ Then they would do the following to communicate.
 Equivalent of this in technological terms is:  
 **Natural Language** > Coding/Programming > **Code in High Level Programming Language** > Compiler Compiles > **Machine Code**
 
-When we say "running a program", it's like giving the instruction in Chinese you have to the computer so the computer can do what it is told to do.
+When we say "running a program", it's like giving the instruction in Chinese to the computer so the computer can do what it is told to do.
 
 There are many programming languages you can use to make **Code in High Level Programming Languages**. One of the most popular ones is **Java**, which you will learn and use throughout the class.  
 
