@@ -16,8 +16,8 @@ It's a convention among mathematicians and computer scientists.
 
 ## So what is Programming? 
 ### Analogy 1
-* Let's assume **Human** only speaks **English**. But they can easily learn **Spanish** if they try. Learning **Chinese** is much more difficult.  
-* **google translator** only knows show to convert **Spanish** into **Chinese**.  
+* Let's assume **Human** only speaks **English** but they can easily learn **Spanish** if they try. Learning **Chinese** is much more difficult.  
+* **Google translator** only knows to convert **Spanish** into **Chinese**.  
 * **Computer** only speaks **Chinese**.  
 * **Programmers** are people who learned how to speak Spanish. Even though they think in English, they can write in Spanish.  
 
