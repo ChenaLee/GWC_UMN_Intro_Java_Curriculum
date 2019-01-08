@@ -42,13 +42,13 @@ There are many programming languages you can use to make **Code in High Level Pr
 If you make a text messaging app, users will open(run) the app, and your code will display some messages sent to that user.  
 To make that happen, you will need a screen to show your messages first, right?  
 In programming, **Console** is the default screen you can show your one-way messages on.  
-Console can also take inputs from you, but let's focus on "showing messages" part for now.  
+Console can also take inputs from you, but let's focus on the "showing messages" part for now.  
 
 ### Printing "Hello world!"
 "Hello world" is how pretty much every programmer starts their programming journey. After this exercise, you are a part of the programmer community!  
 1. In the class file you just created, in main, put **System.out.println("Hello world!");**
 System.out.println() print whatever you give in the brackets to the Console, so users can see it - because users can't read your code!  
-2. Double check you have the semicolon at the end! In Java, it's like a "period" mark at the end of an english sentence. It might look weird right now, but you will get used to it!
+2. Double check that you have the semicolon at the end! In Java, it's like a "period" mark at the end of an english sentence. It might look weird right now, but you will get used to it!
 3. File -> Save (or press ctrl+s)
 4. Right click on your class in the Package Explorer (on the LHS) -> Run As -> Java Application.
 5. Verify that the "console" in the bottom of Eclipse says "Hello world!"
