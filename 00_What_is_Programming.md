@@ -4,7 +4,7 @@ Did you notice this is marked as lesson **00** intead of **01**?
 In programming, most of times counting and numbering starts from *Zero*.  
 It's a convention among mathematicians and computer scientists.   
 
-### Exercise 1
+### Exercise
 > Line up with a group of classmates.  
 >  
 >  Line: | A | B | C | D | You | E | F  
@@ -15,7 +15,7 @@ It's a convention among mathematicians and computer scientists.
 > You are at position 4, not 5!  
 
 ## So what is Programming? 
-### Analogy 1
+### Analogy
 * Let's assume **Human** only speaks **English** but they can easily learn **Spanish** if they try. Learning **Chinese** is much more difficult.  
 * **Google translator** only knows to convert **Spanish** into **Chinese**.  
 * **Computer** only speaks **Chinese**.  
@@ -30,6 +30,9 @@ Equivalent of this in technological terms is:
 When we say "running a program", it's like giving the instruction in Chinese to the computer so the computer can do what it is told to do.
 
 There are many programming languages you can use to make **Code in High Level Programming Languages**. One of the most popular ones is **Java**, which you will learn and use throughout the class.  
+
+### Advice for students
+As a student learning programming, **don't be afraid of failures**. You will experience a lot of "failures" during your journey, and it might make you feel like you can't do it. Sometimes you might be afraid to try running your program before a TA says your code will work. Don't be. No one is grading you here and you should fail as much as you need while you figure out answers yourself. If your code doesn't work, **read the error messages** and **read your code** to figure out why it doesn't work. The most important thing is that you understand what you are doing, not that you make your code fully work in a given time while you are learning. Even professional programmers (or Software Developers) fail, debug, fix, and retry.
 
 ## Print and Run your first program
 ### Get your environment ready
