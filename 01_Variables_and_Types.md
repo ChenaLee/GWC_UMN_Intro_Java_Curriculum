@@ -4,6 +4,11 @@
 Variable is something that can change. The name is fairly self-explanatory, right?  
 @TODO
 
++------+    +------+
+|  x   |    |  y   |
++------+    +------+
+
+
 ### Variables in Mathematics
 @TODO
 
