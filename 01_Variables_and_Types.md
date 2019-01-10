@@ -50,7 +50,7 @@ Review lesson 0 if this is difficult.
 When you first *create* a variable, you specify its type. It is a good idea to also *initialize* the variable with a value.  
 This is called *declaration*, or *to declare a variable*. Here is an example of how you *declare an int* and *assign* it a value.
 ```
-int myInt = 0.
+int myInt = 0;
 ```
 *myInt* is a name of the variable, *int* is its type, and 0 is its current value.  
 
