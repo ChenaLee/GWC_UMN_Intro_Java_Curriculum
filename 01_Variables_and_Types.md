@@ -3,11 +3,11 @@
 ### Variables - Analogy
 Variable is something that can change. The name is fairly self-explanatory, right?  
 @TODO
-
+<pre>
  +------+    +------+  
  |  x   |    |  y   |  
  +------+    +------+  
-
+</pre>
 
 ### Variables in Mathematics
 @TODO
