@@ -29,28 +29,32 @@ When you put something in the variables, we call that either **writing** or **as
 
 ## Types
 ### Types - Analogy
-@TODO
-boxes of different shapes!
+Not all boxes can take in everything. For example, some boxes can only take fishes and some can only take fruits.  
 
 ### Common Types in Programming - Primitive Types
-List of types
+Some of the basic and most common "types" are **boolean**, **char**, **int**, and **double**.  
 
 #### int
-@TODO
+int is short for integer. In maths, it's the set of all number like -5, -4, ..., 0, 1, 2, 3 .....  
+However, in programming it has limit. It can't go to negative infinite or positive infinite. We don't have to worry about the limit for now.  
 
 #### double
-@TODO
+double is the set of all numbers like 1.356, 7.135, -0.182.....  
+However, in programming it also has limit on range just like int, and also has limit on how accurate it can represent some numbers. We will also not worry about it for now.  
 
 ## Equal Sign - Assignment and Comparison
 ### Equal Sign in Mathematics
-@TODO
+In maths, **5=5** means 5 is equal to 5.  
+**x=5** means x is equal to 5.  
 
 ### Equal Sign in Programming
-kind of like arrow
+However, in programming, **x=5** means you put value 5 in the variable named x.  
+It is more like x <- 5.  
 
 ### Comparison in Programming
 Then how do we say two things are equal in programming?  
-== sign  
+You use two equal signs. So instead of doing 5=5, you do **5==5** which means 5 is equal to 5 in programming.  
+Likewise, **x==5** means x is equal to 5 in programming.  
 
 ## Mathematical Operators
 Addition uses "+". e.g. 1+2  
