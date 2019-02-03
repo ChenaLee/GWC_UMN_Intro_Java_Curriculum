@@ -1,20 +1,31 @@
 # 01_Variables_and_Types
 ## Variables
 ### Variables - Analogy
-Variable is something that can change. The name is fairly self-explanatory, right?  
-@TODO
+A variable is something that can change. The name is fairly self-explanatory, right?  
+
+Imagine there are two boxes. One box is named **box1** and the other is named **box2**.  
+However, they are just names of the box. What's actually *inside* each box is different.  
+For example, when you opened the **box1**, you might find it **empty** or find **some stuffs**.  
+Also, you might decide to **empty the box** and **put something else in the box**.  
+
+Those are all properties of variables in programming.  
+
 <pre>
  +------+    +------+  
- |  x   |    |  y   |  
+ | box1 |    | box2 |  
  +------+    +------+  
 </pre>
 
 ### Variables in Mathematics
-@TODO
+If you learned variables in your maths class, it should be simpler to learn variables in programming.  
+If you've seen things like **x=5, y=6**, those x and y are variables.
 
 ### Varaibles in Programming
-@TODO
-name of variable and value
+The boxes themselves we talked about above are **variables**. They contain something and what they contain various things. What they contain are called **values of variables**.    
+The names of the boxes are **variable names**. When you want to look at values of variables or give variables values, you use the variable names to find the exact box you want.
+Of course, variable names have to be **unique**. (Actually, they don't have to be unique "everywhere", but we will talk about that later.) They are labels of boxes - when there are 5 identical boxes you can only find the right box by looking at the names.  
+When you look at the variables' values (i.e. opening boxes), we call that **reading**.  
+When you put something in the variables, we call that either **writing** or **assignment**.  
 
 ## Types
 ### Types - Analogy
