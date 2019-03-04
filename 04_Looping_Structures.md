@@ -168,9 +168,144 @@ Some hints for you:
 
 Extra: If you wrote your answer with a for loop, try with a while loop and vice versa.
 
-#### Exercise 3: 
+#### Exercise 3: Fibonacci Number
+
+Fibonacci Number is a specifc sequence of number that goes like this:  
+
+`
+0, 1, 1, 2, 3, 5, 8, 13, 21, ....
+`
+
+Can you see the pattern ?
+
+Every number in a fibonacci sequence is determined by the sum of the last two number before it, and we start of with 0 and 1 as our first two numbers.
+
+What does this have to do with loops ?
+
+Well it is pretty obvious right ? Your task is to write a block of code that will print a specific length of fibonacci number sequences.
+
+This block of code should get you started. 
+
+```
+package GwcS2019Chena;
+
+public class Loops {
+	public static void main(String[] args) {
+		
+		# Setting up some variables that would be very useful to you
+		int first_number = 0;
+		int second_number = 1;
+		
+		# Modify this variable to the length that you would like your sequence to be
+		int length_of_sequence = 6;
+		
+		# Your code goes here, good luck.
+	}
+}
+```
+
+If we are to run your completed code with `length_of_sequence` as 6, we should get: 
+
+```
+0
+1
+1
+2
+3
+5
+```
+
+As with previous questions, if you have written your loop in one structure, try the other!
+
+####Exercise 4: Loops within Loops - Pattern Creation !!!
+
+This will be quite a challenging task but we will help you out as much as we can.
+
+Now that we can confidently write a loop structure, it is time to put one loop in another loop.
+
+This can be quite complicated to think about and we really suggest you take your time to work through an example on paper to see how your code should be running.
+
+This is your task, to create a right angle triangle like the example given to you at the beginning. However there will be a twist, your triangle should look like this:
+
+```
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+```
+
+We will provide you with all the information and tips you need to create this but you will be writing the looping structures.
+
+```
+package GwcS2019Chena;
+
+class Loops {
+   public static void main(String[] args) {
+      
+      # How many rows do you want your triangle to have ?
+      int rows = 5;
+      
+      # Your code here
+   }
+}
+```
+
+Some extra tips to help you (You should definetely read this):
+
+You guys have learn that `System.out.println("....")` will print a new line for you. However there is a simplier printing function that will print out something new on the same line for you: `System.out.print("....")`
+
+An example:  
+
+```
+System.out.println("Hello");
+System.out.println("My");
+System.out.println("World");
+
+# These three lines will print out
+
+Hello
+My 
+World
+
+System.out.print("Hello ");
+System.out.print("My ");
+System.out.print("World ");
+
+# These three lines will print out
+
+Hello My World
+
+```
+
+If you are really stuck, refer to this block of code shown at the beginning:
+
+```
+for (int row = 0; row <= 7; row++){
+	String line = '';
+	for (int col = 0; col < row; col++) {
+		line = line + " #";
+	}
+	System.out.println(line);
+}
+
+```
+Output:
+
+```
+#
+# #
+# # #
+# # # #
+# # # # #
+# # # # # #
+# # # # # # #
+```
+
+Good Luck !!!
 
 
+ 
 
 
 
