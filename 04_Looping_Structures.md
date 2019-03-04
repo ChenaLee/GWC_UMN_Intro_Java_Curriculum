@@ -1,4 +1,4 @@
-# 04_Looping_Structures
+# 04 Looping Structures
 
 ## Looping in Java
 
@@ -32,6 +32,7 @@ This is very inefficient and tedious and we would like to write some code that i
 
 Here's an example of something we can write and by the end of the class you can write one yourself as well. (If you don't know what String is and how they work, go here ....)
 
+```
 for (int row = 0; row <= 7; row++){
 	String line = '';
 	for (int col = 0; col < row; col++) {
@@ -39,30 +40,137 @@ for (int row = 0; row <= 7; row++){
 	}
 	System.out.println(line);
 }
+```
 
 ## Structures / Components
 
-Loop structures are the name we give to different variantion of loops that we can write and each of them will work in a sightly different manner but the same concept still apply, we are trying to run a group of code multiple times.
+Loop structure is the name we give to different variantion of loops that we can write and each of them will work in a sightly different manner but the same concept still apply, we are trying to run a block of code multiple times.
 
 Now we will explain each of the components that comes into making a loop:
-*Counter - A variable that we use to help us manage our loop.  
-*Initialization - Use to create our counter and giving it a value.  
-*Loop-condition - Use to determine whether we should continue with the loop or terminate it base on our counter.  
-*Modifiers - What we do to our counter every loop.  
-*Statments(s) - What we want to run every loop.  
+
+* Counter - A variable that we use to help us manage our loop.  
+* Initialization - Use to create our counter and giving it a value.  
+* Loop-condition - Use to determine whether we should continue with the loop or terminate it base on our counter.    
+* Modifiers - What we do to our counter every loop.  
+* Statment(s) - What we want to run every loop.  
+
+Every loop structures in Java must contains all of these components. Now that we are moving on to discussing each of the structure you will see a diagram indicating how our code will flow through each of the compoenents for each structure.
 
 ### For Loop
 
 ![alt text](https://github.com/ChenaLee/GWC_UMN_Intro_Java_Curriculum/blob/master/images/For_Loop_Diagram.png "For Loop Diagram")
 
+For loop is the most basic of all the structure and the easiest one to follow. We will go through this block of code and see how it actually works.
+
+```
+for (int counter = 0; counter <= 3; counter ++){
+	System.out.println(counter);
+}
+```
+First let's identify each of our components:
+
+* Counter = `counter` This is the variable we will be using to mange our loop.
+* Initialization = `int counter = 0` We assign our variable `counter` with the number 0.  
+* Loop-condition = `counter <= 3` This mean that our loop will stop when counter is not less than or equal to 3.  
+* Modifiers = `counter++` This mean that for each of our loop we will increase counter by 1.  
+* Statement = `System.out.println(counter)` This is what we want to do every loop, we will print out our variable `counter`
+
+So how does the loop work ? Let's go through it (Use the diagram for help):
+
+1. We first initalize our counter.
+2. Then we look to see if our condition fail or not. If it doesn't we continue to our statments.
+3. We run our statements.
+4. We then modify our variable using the modifier.
+5. Now we check if our condition fail or not again. 
+	* If it fail then we skip our statements and our for loop end
+	* if it doesn't fail we go to our statements and continue with our loop.
+
 #### Exercise 0: Practice with For Loop
+
+Let's start of with something simple.  
+What would the output of the for loop we discussed about previously be ?
+
+```
+for (int counter = 0; counter <= 3; counter ++){
+	System.out.println(counter);
+}
+```
+Once you are done with your guess, let's run the code and see if you are correct.
+
+```
+package GwcS2019Chena;
+
+public class Loops {
+	public static void main(String[] args) {
+		for (int counter = 0; counter <= 3; counter ++){
+			System.out.println(counter);
+		}
+	}
+}
+```
 
 ### While Loop
 
+![alt text](https://github.com/ChenaLee/GWC_UMN_Intro_Java_Curriculum/blob/master/images/While_Loop.png "While Loop Diagram")
+
+While loop is actually very similar to for loop, and the main difference is in how they look. Please compare the diagrams in our For Loop section with the diagram in this session. Can you spot the differences and how our while loop would work?
+
+Let's run through how the code flow:
+
+1. We first initalize our counter outside of our while loop.
+2. Then we look to see if our condition fail or not. If it doesn't we continue to our statments.
+3. We run our statements.
+4. We then modify our variable using the modifier.
+5. Now we check if our condition fail or not again. 
+	* If it fail then we skip our statements and our for loop end
+	* if it doesn't fail we go to our statements and continue with our loop.
+
+
 #### Exercise 1: Practice with While Loop
+For this exercise, your job will be to recreate the for loop we have in exercise 0 as a while loop. The code below should provide you with a good starting point, fill out the `...` with the appropriate code.
 
-### Do While
+```
+package GwcS2019Chena;
 
-#### Exercise 2: Practice with Do While Loop
+public class Loops {
+	public static void main(String[] args) {
+		int counter = ...;
+		while(...) {
+			...;
+			...;
+		}
+	}
+}
+```
+
+Hint: If you are stuck, identify the components in the for loop and see where you can place them in the while loop.
+
+#### Exercise 2: Sum with loops
+
+Let's say we want to add every number between 0 and 15 and we want to write this as a loop, how would we do it ? What would we need ? Your task is to write a for loop / while loop that will do this.
+
+```
+package GwcS2019Chena;
+
+public class Loops {
+	public static void main(String[] args) {
+		int sum = 0;
+		# Your code goes here
+		System.out.println(sum);
+	}
+}
+```
+Some hints for you:  
+
+1. Work through each of the components, what do you want each of them to do ?
+2. For loop or while loop ? (Both works but which one is easier for you ?)
+3. Try to go through how you would add every number from 0 to 15, step by step. See how you can apply this to a loop.
+
+Extra: If you wrote your answer with a for loop, try with a while loop and vice versa.
+
+#### Exercise 3: 
+
+
+
 
 
