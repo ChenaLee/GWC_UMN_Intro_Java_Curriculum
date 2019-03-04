@@ -6,6 +6,7 @@ A loop in programming language is a way of writing code in such a way that allow
 
 An example of this would be that you would be that we want to draw a right-angle triangle made out of "#" on our console. 
 
+```
 #
 # #
 # # #
@@ -13,9 +14,11 @@ An example of this would be that you would be that we want to draw a right-angle
 # # # # #
 # # # # # #
 # # # # # # #
+```
 
 One way to do this is to write seven lines of:
 
+```
 System.out.println("#");
 System.out.println("# #");
 System.out.println("# # #");
@@ -23,6 +26,7 @@ System.out.println("# # # #");
 System.out.println("# # # # #");
 System.out.println("# # # # # #");
 System.out.println("# # # # # # #");
+```
 
 This is very inefficient and tedious and we would like to write some code that is both smarter, easier to read, and more efficient.
 
@@ -41,13 +45,15 @@ for (int row = 0; row <= 7; row++){
 Loop structures are the name we give to different variantion of loops that we can write and each of them will work in a sightly different manner but the same concept still apply, we are trying to run a group of code multiple times.
 
 Now we will explain each of the components that comes into making a loop:
-Counter - A variable that we use to help us manage our loop.
-Initialization - Use to create our counter and giving it a value.
-Loop-condition - Use to determine whether we should continue with the loop or terminate it base on our counter.
-Modifiers - What we do to our counter every loop.
-Statments(s) - What we want to run every loop.
+*Counter - A variable that we use to help us manage our loop.  
+*Initialization - Use to create our counter and giving it a value.  
+*Loop-condition - Use to determine whether we should continue with the loop or terminate it base on our counter.  
+*Modifiers - What we do to our counter every loop.  
+*Statments(s) - What we want to run every loop.  
 
 ### For Loop
+
+![alt text](https://github.com/ChenaLee/GWC_UMN_Intro_Java_Curriculum/blob/master/images/For_Loop_Diagram.png "For Loop Diagram")
 
 #### Exercise 0: Practice with For Loop
 
