@@ -217,7 +217,7 @@ If we are to run your completed code with `length_of_sequence` as 6, we should g
 
 As with previous questions, if you have written your loop in one structure, try the other!
 
-####Exercise 4: Loops within Loops - Pattern Creation !!!
+#### Exercise 4: Loops within Loops - Pattern Creation !!!
 
 This will be quite a challenging task but we will help you out as much as we can.
 
