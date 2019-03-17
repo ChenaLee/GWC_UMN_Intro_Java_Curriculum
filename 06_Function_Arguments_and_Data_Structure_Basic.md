@@ -1,22 +1,9 @@
 # 06_Function_Arguments_and_Data_Structure_Basic
 ## Function Arguments
-
-
-
-A function is like an individual in a factory that does one specific job.  
-For example, worker A's job might be connecting teddy bear's head and body together, 
-worker B's job might be putting eyes on the teddy bear after worker A, 
-and worker C might be the one finishing it buy drawing its mouth.  
+Let's go back to the factory example.  
+When worker A does their job and the worker B does the next step, A might pass B something. In our example, it would be a teddy bear in progress.  
   
-In programming, functions can call other functions to complete a job as well.  
-Function A might call function C, and function B can use function C too.
-
-Making functions with one specific job each instead of putting all the code in one function provides the benefic of reusability.  
-    Let's say you made a function to find an average of 2 numbers. 
-    When you try to make another function that finds average of all test scores of your class, 
-    it could call the average function you already made.  
-    You could later also want to implement a function that finds average of all test scores of one person, the average function could be used again.  
-    As a function gets more complicated, this will reduce the amount of code you write and dupulicate code you have to maintain significantly.  
+To do this in programming, we use **function arguments**. They are something you can pass to a function. In other words, a function can take function arguments.  
 
 You've seen something like this and coded inside of this block before :
 ```
@@ -25,9 +12,20 @@ public static void main(String[] args) {
 	System.out.println(number);
 }
 ```
-This is called the "main function". Main function runs every time you "run a program". In other words, no other function is automatically called when you "run a program".  
-That means main has to call other functions if you want other functions to run.  
-The "println" you've used is also a function. It ran because the main function called it.  There are many functions created by experts and available to you like the print. You can use them or create your own functions when you need.  
+The **args** in the bracket next to "main" is a function argument. **String[]** is a type. To specify what kind of arguments a function can take like this, put brackets next to the function name, and put data type and name of the argument. To make a function with multiple arguments, put a comma in between arguments like this:  
+```
+void myFunction(int number, String name) {
+	...
+}
+```
+Take a look at **println** again as well. It has a bracket that contains **number**. This is how you call a function with function arguments, or "pass" the function some variables.  
+
+
+- 1 argument
+- 2 arguments
+- 2 arguments, but you wanna only pass one of it? Try calling
+- functions with same name but different arguments
+- Collection types data structures
 
 ## Function Name
 ```
