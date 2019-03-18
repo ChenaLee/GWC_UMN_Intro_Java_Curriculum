@@ -20,12 +20,43 @@ void myFunction(int number, String name) {
 ```
 Take a look at **println** again as well. It has a bracket that contains **number**. This is how you call a function with function arguments, or "pass" the function some variables.  
 
+## Function with 1 argument
+### Exercise 0 : Function with 1 argument
+Create a function with:
+- Name : printName  
+- Return Type : None (void)     
+- Arguments : String with name "inputName"    
+- Job : Print "My name is {inputName}"   
+  
+Create a function with:
+- Name : multiplyByTwo  
+- Return Type : int  
+- Arguments : int with name "inputInt" 
+- Job : return doubled value of inputInt  
+
+And let the main function call printMyInfo.
+
+
+### Exercise 1 : Function with 2 arguments of different types  
+Create a function with:
+- Name : printMyInfo  
+- Return Type : None (void)  
+- Arguments : String with name "inputName"  and int with name "inputAge"
+- Job : Print "{inputName} is {inputAge} years old."   
+
+Create a function with:  
+- Name : average  
+- Return Type : int  
+- Arguments : int with name "num1" and int with name "num2"  
+- Job : 
 
 - 1 argument
-- 2 arguments
+- 2 arguments of different types
+- 2 arguments of same types
 - 2 arguments, but you wanna only pass one of it? Try calling
 - functions with same name but different arguments
 - Collection types data structures
+
 
 ## Function Name
 ```
